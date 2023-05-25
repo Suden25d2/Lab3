@@ -1,0 +1,30 @@
+body {
+        font-family Calibri, serif;
+       
+    }
+    
+    h1 {
+        color white;
+        font-size x-large;
+    }
+
+
+    header {
+        box-shadow 10px 5px 4px black;
+        background-color #999999;
+        padding 20px;
+        text-align center;
+    }
+    .pic {
+        text-align center;
+    }
+   
+    .warning {
+        border 2px solid black;
+        font-size large;
+        color green;
+        text-align center;
+    }
+    .warninghover {
+        color #b6ff00;
+    }

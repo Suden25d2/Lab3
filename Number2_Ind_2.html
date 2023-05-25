@@ -1,0 +1,20 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <script>
+        if (confirm('Доброго времени суток, у этой страницы есть к вам вопрос, вы готовы ответить?')) {
+            var age = prompt('Cколько вам лет', 'Введите сюда свой возраст');
+            while (!confirm("Вы уверены, что вам " + age)) {
+                age = prompt('Cколько вам лет', 'Введите сюда свой возраст');
+            } 
+        }
+        alert('Спасибо, что уделили время');
+    </script>
+
+</body>
+</html>

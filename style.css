@@ -1,30 +1,34 @@
-body {
-        font-family Calibri, serif;
-       
-    }
-    
-    h1 {
-        color white;
-        font-size x-large;
-    }
+﻿body {
+    font-family: Calibri, serif;
+}
+h1 {
+    color: white;
+    font-size: x-large;
+}
 
 
-    header {
-        box-shadow 10px 5px 4px black;
-        background-color #999999;
-        padding 20px;
-        text-align center;
-    }
-    .pic {
-        text-align center;
-    }
-   
-    .warning {
-        border 2px solid black;
-        font-size large;
-        color green;
-        text-align center;
-    }
-    .warninghover {
-        color #b6ff00;
-    }
+header {
+    box-shadow: 10px 5px 4px green;
+    background-color: #b6ff00;
+    padding: 20px;
+    text-align: left;
+}
+age {
+    color: dimgray;
+    box-shadow: 5px 5px 4px yellow;
+    background-color: yellow;
+    padding: 20px;
+    text-align: left;
+}
+pol {
+    color: dimgray;
+    box-shadow: 5px 5px 4px yellow;
+    background-color: yellow;
+    padding: 20px;
+    text-align: left;
+}
+
+.pic {
+    box-shadow: 5px 5px 4px white;
+    text-align: left;
+}
